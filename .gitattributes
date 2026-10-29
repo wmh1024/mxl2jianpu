@@ -1,0 +1,10 @@
+# keep text files LF everywhere: the tool writes UTF-8 LF output and compares
+# its own files byte for byte, so CRLF conversion would break the fixtures
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.mxl  binary
+*.pdf  binary
+*.png  binary

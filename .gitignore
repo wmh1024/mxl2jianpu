@@ -1,0 +1,25 @@
+# generated
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# build products of the mxl2jp pipeline
+*.mid
+# rendered scores: ignore them everywhere except the documentation screenshots
+# under images/, which the README embeds
+*.pdf
+*.png
+!images/*.png
+
+# intermediate / working data (not part of the tool)
+build/
+work/
+output/
+
+# editor and OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
